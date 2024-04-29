@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 // Call the stored procedure
-$updated_rows = 0;
+$updated_rows = 1;
 $conn->query("CALL UpdateInactiveRecords(@updated_rows)");
 
 // Fetch the updated rows count
