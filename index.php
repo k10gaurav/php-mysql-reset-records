@@ -1,10 +1,10 @@
 <?php
 
 // Database connection parameters
-$servername = "sql6.freesqldatabase.com"; // Change this to your database server name
-$username = "sql6693962"; // Change this to your database username
-$password = "VEhKY47ZDU"; // Change this to your database password
-$dbname = "sql6693962"; // Change this to your database name
+$servername = "mysql-b1771805-d0ae-4ce9-b5c8-2a10cd888fae-rmmrdb2370266517-cho.h.aivencloud.com:23412"; // Change this to your database server name
+$username = "avnadmin"; // Change this to your database username
+$password = "AVNS_6cXtDv8x8QoCUM0Ky4S"; // Change this to your database password
+$dbname = "defaultdb"; // Change this to your database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
